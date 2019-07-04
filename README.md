@@ -13,5 +13,4 @@ At this stage, the initial python script "Engine.py" may be run, producing a gra
 The second step in the pipeline is executing the external library binary for temporal network embedding and link-prediction. Each generated edgelist will serve as input for the temporal network embedding program which will produce a series of output embeddings of its own.
 Temporal Network Embedding can be found and installed from here; https://github.com/linhongseba/Temporal-Network-Embedding
 
-
 These embeddings can be compared against n + 1 time slices network graphs using MATLAB to produce the final AUROC plots.
